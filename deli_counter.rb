@@ -15,6 +15,8 @@ def line(array)
       line_order.push("#{position[count]}. #{array[count]}")
       count+=1
     end
-  puts "The line is currently: #{line_order}"
+    joined_line_order = line_order.join(" ")
+  puts "The line is currently: #{joined_line_order}"
   end 
 end
+
