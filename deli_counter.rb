@@ -6,6 +6,6 @@ def line(array)
     puts "The line is currently empty."
   else
     #array.each{|x| print x, " " } 
-    puts array
+    return array
   end 
 end
