@@ -5,6 +5,7 @@ def line(array)
   if (array.length == 0)
     puts "The line is currently empty."
   else
-    array.each{|x| print x, " " } 
+    #array.each{|x| print x, " " } 
+    puts array
   end 
 end
