@@ -26,3 +26,14 @@ def take_a_number(array, name)
   array.each_index{|x| position.push(x+1)}
   puts "Welcome, #{name}. You are number #{position.last} in line."
 end
+
+def now_serving(array)
+  array2 = array
+  if array2.length != 0
+    puts "Currently serving #{array2[0]}."
+    array2.shift
+  else
+    puts "There is nobody waiting to be served!"
+  end
+
+end
