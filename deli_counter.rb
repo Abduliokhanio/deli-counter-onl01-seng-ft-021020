@@ -20,3 +20,9 @@ def line(array)
   end 
 end
 
+def take_a_number(array, name)
+  array.push(name)
+  position = []
+  array.each_index{|x| position.push(x+1)}
+  puts "Welcome, #{name}. You are number #{position.last} in line."
+end
